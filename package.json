@@ -1,0 +1,24 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "simple project for trying deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhanqu/deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhanqu/deploy/issues"
+  },
+  "homepage": "https://github.com/liuhanqu/deploy#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-views": "^6.1.4"
+  }
+}
