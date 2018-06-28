@@ -1,0 +1,6 @@
+apps:
+  -
+    name: koa-demo
+    script: index.js
+    exec_mode: cluster
+    instances: 0
