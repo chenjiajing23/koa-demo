@@ -1,5 +1,5 @@
 {
-  "name": "deploy",
+  "name": "koa-demo",
   "version": "1.0.0",
   "description": "simple project for trying deploy",
   "main": "index.js",
@@ -10,16 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liuhanqu/deploy.git"
+    "url": "git+https://github.com/liuhanqu/koa-demo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liuhanqu/deploy/issues"
+    "url": "https://github.com/liuhanqu/koa-demo/issues"
   },
-  "homepage": "https://github.com/liuhanqu/deploy#readme",
+  "homepage": "https://github.com/liuhanqu/koa-demo#readme",
   "dependencies": {
-    "koa": "^2.5.1",
-    "koa-views": "^6.1.4"
+    "koa": "^2.5.1"
   }
 }

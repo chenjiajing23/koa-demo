@@ -1,13 +1,9 @@
 const Koa = require('koa');
-const views = require('koa-views');
-const path = require('path');
 
 const app = new Koa();
 
-app.use(views(path.resolve(__dirname, './views'), { extension: 'html' }));
-
 app.use(async ctx => {
-  await ctx.render('index');
+  ctx.body = "It's success, congratulation! ";
 });
 
 app.listen(3000, function() {
