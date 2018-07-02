@@ -1,10 +1,11 @@
 FROM node:10.5.0-slim
 
-RUN npm install
-
 COPY . /app
 
 WORKDIR /app
+
+RUN npm install \
+  && npm install -g pm2
 
 EXPOSE 3000
 
